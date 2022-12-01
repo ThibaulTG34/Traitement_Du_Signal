@@ -47,7 +47,8 @@ void creation_note(double f_note, int nbEchantillon, double f_e, double* echant)
 
 
 int main () {
-    
+
+
 	double* echantillon = new double[1000];
     creation_note(440, 1000, 44100, echantillon);
 
